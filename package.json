@@ -35,9 +35,6 @@
     "lint": "eslint lib/**.js test/**.js",
     "pretest": "npm run lint"
   },
-  "dependencies": {
-    "@types/node": "^11.10.4"
-  },
   "devDependencies": {
     "eslint": "5.9.x",
     "mocha": "4.x",
