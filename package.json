@@ -1,7 +1,7 @@
 {
   "name": "@binaris/hot-shots",
   "description": "Node.js client for StatsD, DogStatsD, and Telegraf (better types in Binaris)",
-  "version": "6.1.2-rc.3",
+  "version": "6.1.2",
   "author": "Steve Ivy",
   "types": "./types.d.ts",
   "contributors": [
