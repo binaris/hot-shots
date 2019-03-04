@@ -1,12 +1,13 @@
 {
-  "name": "hot-shots",
-  "description": "Node.js client for StatsD, DogStatsD, and Telegraf",
-  "version": "6.1.1",
+  "name": "@binaris/hot-shots",
+  "description": "Node.js client for StatsD, DogStatsD, and Telegraf (better types in Binaris)",
+  "version": "6.1.2-rc.3",
   "author": "Steve Ivy",
   "types": "./types.d.ts",
   "contributors": [
     "Russ Bradberry <rbradberry@gmail.com>",
-    "Brian Deitte <bdeitte@gmail.com>"
+    "Brian Deitte <bdeitte@gmail.com>",
+    "Ariel Shaqed (Scolnicov) <ariels@binaris.com>"
   ],
   "keywords": [
     "statsd",
@@ -34,7 +35,9 @@
     "lint": "eslint lib/**.js test/**.js",
     "pretest": "npm run lint"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/node": "^11.10.4"
+  },
   "devDependencies": {
     "eslint": "5.9.x",
     "mocha": "4.x",
